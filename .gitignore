@@ -1,0 +1,18 @@
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Datos sensibles — NUNCA subir al repositorio
+*.json
+*.csv
+*.xlsx
+data/
+raw/
+leaked/
+dumps/
+
+# Borradores
+draft_*
+wip_*
+temp_*
