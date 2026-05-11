@@ -59,12 +59,6 @@ MTD-HX-v1/
 │   ├── 06-recommendations.md
 │   ├── 07-legal.md
 │   └── 08-report-template.md
-├── cases/
-│   └── example-davila-rutificador/  ← Applied case study
-│       ├── README.md
-│       ├── 01-scope.md
-│       ├── 03-hypothesis.md
-│       └── 05-risk.md
 └── assets/
     └── framework-diagram.png        ← Visual diagram (coming soon)
 ```
@@ -85,13 +79,12 @@ MTD-HX-v1/
 
 | Field | Detail |
 |---|---|
-| Case | Clínica Dávila Breach + Rutificador Correlation Hypothesis |
+| Case | CONFIDENTIAL |
 | Attack type | Data Enrichment Attack / Re-identification Attack |
 | Pivot field | Chilean RUT (national ID number) |
-| Reported to | PDI Cibercrimen, CIPER Chile |
+| Reported to | PDI |
 | Date | May 3, 2026 |
 
-→ Full case: [`/cases/example-davila-rutificador/`](./cases/example-davila-rutificador/)
 
 ---
 
