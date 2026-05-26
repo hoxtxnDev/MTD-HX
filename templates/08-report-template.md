@@ -82,4 +82,4 @@ Todo el análisis se basa en fuentes públicamente disponibles.
 
 ---
 
-*MTD-HX v1 — Cybersecurity Research Framework by Horacio Navarrete Muñoz*
+*MTD-HX v1 — Cybersecurity Research Framework by hoxtxnDev*

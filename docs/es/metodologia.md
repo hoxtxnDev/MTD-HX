@@ -82,4 +82,4 @@ Un investigador que identifica los límites de su propia hipótesis es más cre�
 
 ---
 
-*MTD-HX v1 — Horacio Navarrete Muñoz | Duoc UC, Concepción | 2026*
+*MTD-HX v1 — hoxtxnDev | 2026*

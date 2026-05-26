@@ -67,4 +67,4 @@ This framework solves both problems by forcing the researcher to document every 
 
 ---
 
-*MTD-HX v1 — Horacio Navarrete Muñoz | Duoc UC, Concepción | 2026*
+*MTD-HX v1 — hoxtxnDev | 2026*

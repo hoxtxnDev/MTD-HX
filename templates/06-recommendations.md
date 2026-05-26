@@ -27,4 +27,4 @@
 
 ---
 
-*Template MTD - HX 1 — Cybersecurity Research Framework by Horacio Navarrete Muñoz*
+*Template MTD - HX 1 — Cybersecurity Research Framework by hoxtxnDev*

@@ -81,4 +81,4 @@ los datos filtrados de X con la plataforma pública Y usando Z como llave de enl
 
 ---
 
-*Template MTD - HX 1 — Cybersecurity Research Framework by Horacio Navarrete Muñoz*
+*Template MTD - HX 1 — Cybersecurity Research Framework by hoxtxnDev*

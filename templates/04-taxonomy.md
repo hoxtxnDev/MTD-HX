@@ -48,4 +48,4 @@
 | Ataques a la Cadena de Suministro | `[Sí / No]` | `[...]` |
 | Otro tipo de ataque | `[Sí / No]` | `[...]` |
 
-*Template MTD - HX 1 —  Cybersecurity Research Framework by Horacio Navarrete Muñoz*
+*Template MTD - HX 1 —  Cybersecurity Research Framework by hoxtxnDev*
