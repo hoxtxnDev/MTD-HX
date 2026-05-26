@@ -2,7 +2,7 @@
 
 > Metodología estructurada para conducir hipótesis de investigación en ciberseguridad de forma ética — desde la identificación de amenazas hasta el reporte formal.
 
-**Autor:** Horacio N.
+**Autor:** hoxtxnDev
 
 
 ---
