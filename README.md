@@ -2,7 +2,7 @@
 
 > A structured methodology for conducting ethical cybersecurity hypothesis research — from threat identification to formal reporting.
 
-**Author:** Horacio N.
+**Author:** hoxtxnDev
 
 ---
 
