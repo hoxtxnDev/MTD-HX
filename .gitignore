@@ -1,7 +1,12 @@
-# Sistema
+# Sistema / System
 .DS_Store
 Thumbs.db
 *.log
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
 # Datos sensibles — NUNCA subir al repositorio
 *.json
@@ -16,3 +21,9 @@ dumps/
 draft_*
 wip_*
 temp_*
+
+# Node / Python (si aplica)
+node_modules/
+__pycache__/
+*.pyc
+.env
