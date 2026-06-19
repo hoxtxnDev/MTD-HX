@@ -61,21 +61,21 @@ graph LR
 
 | Phase | Description | Template |
 |---|---|---|
-| **1. Scope Definition** | Define objectives, boundaries, ethical constraints, and applicable law | [`01-scope.md`](./templates/01-scope.md) |
-| **2. Verified Facts** | Document only publicly verifiable information with sources | [`02-facts.md`](./templates/02-facts.md) |
-| **3. Technical Hypothesis** | Formulate attack vector with MITRE ATT&CK technique mapping | [`03-hypothesis.md`](./templates/03-hypothesis.md) |
-| **4. Attack Taxonomy** | Classify via MITRE ATT&CK tactics + OWASP categories | [`04-taxonomy.md`](./templates/04-taxonomy.md) |
-| **5. Risk Analysis** | CVSS 4.0 scoring with full Base metric breakdown | [`05-risk.md`](./templates/05-risk.md) |
-| **6. Recommendations** | Actionable mitigations per stakeholder (CISO / Dev / Legal / Exec) | [`06-recommendations.md`](./templates/06-recommendations.md) |
-| **7. Legal Framework** | Map to specific legal articles + responsible disclosure log | [`07-legal.md`](./templates/07-legal.md) |
-| **8. Final Report** | Executive summary + technical body + appendices | [`08-report-template.md`](./templates/08-report-template.md) |
+| **1. Scope Definition** | Define objectives, boundaries, ethical constraints, and applicable law | [`EN`](./templates/en/01-scope.md) · [`ES`](./templates/es/01-scope.md) |
+| **2. Verified Facts** | Document only publicly verifiable information with sources | [`EN`](./templates/en/02-facts.md) · [`ES`](./templates/es/02-facts.md) |
+| **3. Technical Hypothesis** | Formulate attack vector with MITRE ATT&CK technique mapping | [`EN`](./templates/en/03-hypothesis.md) · [`ES`](./templates/es/03-hypothesis.md) |
+| **4. Attack Taxonomy** | Classify via MITRE ATT&CK tactics + OWASP categories | [`EN`](./templates/en/04-taxonomy.md) · [`ES`](./templates/es/04-taxonomy.md) |
+| **5. Risk Analysis** | CVSS 4.0 scoring with full Base metric breakdown | [`EN`](./templates/en/05-risk.md) · [`ES`](./templates/es/05-risk.md) |
+| **6. Recommendations** | Actionable mitigations per stakeholder (CISO / Dev / Legal / Exec) | [`EN`](./templates/en/06-recommendations.md) · [`ES`](./templates/es/06-recommendations.md) |
+| **7. Legal Framework** | Map to specific legal articles + responsible disclosure log | [`EN`](./templates/en/07-legal.md) · [`ES`](./templates/es/07-legal.md) |
+| **8. Final Report** | Executive summary + technical body + appendices | [`EN`](./templates/en/08-report-template.md) · [`ES`](./templates/es/08-report-template.md) |
 
 ---
 
 ## Quick Start — Clínica Dávila Case (3 Steps)
 
 ### Step 1: Scope + Facts
-Open [`01-scope.md`](./templates/01-scope.md) and define the boundaries of your analysis. For the Clínica Dávila case:
+Open [`01-scope.md`](./templates/en/01-scope.md) and define the boundaries of your analysis. For the Clínica Dávila case:
 
 ```yaml
 case_id: "CD-2025-001"
@@ -93,7 +93,7 @@ out_of_scope:
 ```
 
 ### Step 2: Hypothesis + Taxonomy
-Open [`03-hypothesis.md`](./templates/03-hypothesis.md) and formulate the attack model:
+Open [`03-hypothesis.md`](./templates/en/03-hypothesis.md) and formulate the attack model:
 
 ```yaml
 hypothesis: "An actor with access to the Clínica Dávila leaked dataset could
@@ -105,14 +105,14 @@ mitre_tactic: "TA0042 — Resource Development"
 ```
 
 ### Step 3: Risk + Report
-Score the vector with [`05-risk.md`](./templates/05-risk.md) using CVSS 4.0:
+Score the vector with [`05-risk.md`](./templates/en/05-risk.md) using CVSS 4.0:
 
 ```
 CVSS 4.0 Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:L/VA:N/SC:H/SI:N/SA:N
 Base Score: 9.3 (Critical)
 ```
 
-Then compile everything into [`08-report-template.md`](./templates/08-report-template.md).
+Then compile everything into [`08-report-template.md`](./templates/en/08-report-template.md).
 
 ---
 
@@ -146,14 +146,32 @@ MTD-HX/
 │   ├── en/methodology.md          ← Full methodology guide (EN)
 │   └── es/metodologia.md          ← Guía completa de metodología (ES)
 └── templates/
-    ├── 01-scope.md                ← Phase 1 — Scope Definition
-    ├── 02-facts.md                ← Phase 2 — Verified Facts
-    ├── 03-hypothesis.md           ← Phase 3 — Technical Hypothesis
-    ├── 04-taxonomy.md             ← Phase 4 — Attack Taxonomy
-    ├── 05-risk.md                 ← Phase 5 — Risk Analysis
-    ├── 06-recommendations.md      ← Phase 6 — Recommendations
-    ├── 07-legal.md                ← Phase 7 — Legal Framework
-    └── 08-report-template.md      ← Phase 8 — Final Report
+    ├── en/                         ← English templates (primary)
+    │   ├── 01-scope.md
+    │   ├── 02-facts.md
+    │   ├── 03-hypothesis.md
+    │   ├── 04-taxonomy.md
+    │   ├── 05-risk.md
+    │   ├── 06-recommendations.md
+    │   ├── 07-legal.md
+    │   └── 08-report-template.md
+    ├── es/                         ← Spanish templates (secondary)
+    │   ├── 01-scope.md
+    │   ├── 02-facts.md
+    │   ├── 03-hypothesis.md
+    │   ├── 04-taxonomy.md
+    │   ├── 05-risk.md
+    │   ├── 06-recommendations.md
+    │   ├── 07-legal.md
+    │   └── 08-report-template.md
+    ├── 01-scope.md                ← Bilingual reference
+    ├── 02-facts.md
+    ├── 03-hypothesis.md
+    ├── 04-taxonomy.md
+    ├── 05-risk.md
+    ├── 06-recommendations.md
+    ├── 07-legal.md
+    └── 08-report-template.md
 ```
 
 ---
